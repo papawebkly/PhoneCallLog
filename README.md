@@ -32,7 +32,7 @@ Get the version of Cordova running on the device.
 
 -Add following permission in AndroidManifest.xml
 
-<uses-permission android:name=“android.permission.READ_CALL_LOG” />
+uses-permission android:name=“android.permission.READ_CALL_LOG”
 
 -Usage
 $window.phoneCallLog.getPhoneCallInfo(function(results){
