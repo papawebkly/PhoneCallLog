@@ -23,7 +23,6 @@
 
 ## Installation
 
-    cordova plugin add cordova-plugin-phonecalllog
     cordova plugin add https://github.com/mobilestar55555/PhoneCallLog.git
 
 
@@ -32,6 +31,7 @@
 Get the version of Cordova running on the device.
 
 -Add following permission in AndroidManifest.xml
+
 <uses-permission android:name=“android.permission.READ_CALL_LOG” />
 
 -Usage

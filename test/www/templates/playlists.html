@@ -1,0 +1,12 @@
+<ion-view view-title="PhoneLogs">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="playlist in playlists">
+        Number: {{playlist.phNumber}}<br>
+        CallDayTime: {{playlist.callDayTime}}<br>
+        CallDuration: {{playlist.callDuration}}<br>
+        {{playlist.Direction}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
